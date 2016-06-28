@@ -1,0 +1,24 @@
+body{
+  background-image: url("https://dl.dropboxusercontent.com/s/o6gu442sx3g9es2/cork-board.jpg");
+}
+
+.polaroid {
+  background-image: url("https://dl.dropboxusercontent.com/s/4qo5wz8brq13ex2/polaroid.png");
+  width: 975px;
+  height: 1000px;
+  position: relative;
+}
+
+#uma {
+  z-index: -1;
+  position: absolute;
+  left: 130px;
+  top: 118px;
+}
+
+.polaroid::before {
+  content: url(../img/red-pin.png);
+  position: absolute;
+  top: 200px;
+  left: 375px;
+}
