@@ -19,6 +19,6 @@ body{
 .polaroid::before {
   content: url(../img/red-pin.png);
   position: absolute;
-  top: 200px;
+  top: 95px;
   left: 375px;
 }
